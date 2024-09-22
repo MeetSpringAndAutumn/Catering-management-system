@@ -1,0 +1,10 @@
+@startuml
+interface com.lzy.shan.restaurant.dao.DataAnalysisDao {
+~ List<GoodsSalesChart> findSalesSortByDays(GoodsSalesChart)
+~ List<GoodsCategorySalesChart> findGoodsCategorySalesByDays(GoodsCategorySalesChart)
+~ List<SalesStatisticsChart> findSalesStatisticsByDays(SalesStatisticsChart)
+~ List<MemberChart> findMemberAddByDays(MemberChart)
+~ List<MemberChart> findMemberCategoryRate()
+~ List<PeopleChart> findPeopleByHours()
+}
+@enduml
